@@ -21,6 +21,7 @@
     <Spinner
         android:id="@+id/breedSpinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="48dp"
+        android:minHeight="48dp" />
 
 </LinearLayout>

@@ -8,6 +8,11 @@ android {
         version = release(36)
     }
 
+    // Enable view binding
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.cis436_project3"
         minSdk = 26
@@ -43,4 +48,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // Volley (latest stable as of 2026)
+    implementation("com.android.volley:volley:1.2.1")
 }
