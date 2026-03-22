@@ -16,6 +16,7 @@
         android:name="com.example.cis436_project3.ui.selector.BreedSelectorFragment" />
 
     <!-- Bottom fragment (details + image) -->
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/bottomFragmentContainer"
         android:layout_width="match_parent"
